@@ -14,7 +14,7 @@ func check(err error) {
 func main() {
 	var score int
 	var i int
-	file, err := os.ReadFile("input")
+	file, err := os.ReadFile("input.txt")
 	check(err)
 	input := string(file)
 	for i < len(input){
